@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.black-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.image-overlay {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 55%, rgba(0, 0, 0, 1));
+}
+
+.item-hover:hover{
+    transform: scale(0.95, 0.95);
+    transform-origin: center center;
+    transition: 0.3s ease-in-out !important;
+}
